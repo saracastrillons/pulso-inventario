@@ -4,3 +4,4 @@ __pycache__/
 # La demo se regenera con `python -m pulso.demo preparar` (semilla fija)
 data/
 *.log
+desktop.ini

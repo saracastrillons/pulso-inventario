@@ -11,6 +11,8 @@ Proyecto de portafolio de **automatización, analítica de datos e inteligencia 
 la toma de decisiones**. Todos los datos son sintéticos y se generan con una semilla fija: cualquier
 persona obtiene exactamente la misma demo.
 
+![Bandeja de prioridades](docs/capturas/prioridades.png)
+
 ## Qué hace
 
 | Pantalla | Para qué sirve |
@@ -19,6 +21,18 @@ persona obtiene exactamente la misma demo.
 | **Detalle de decisión** | Curva de inventario con y sin la acción, día de quiebre, alternativas comparadas (incluidas las descartadas y por qué) y el formulario para aprobar, ajustar la cantidad o rechazar con motivo. |
 | **Simulador** | Cambia el plazo del proveedor o la intensidad de la demanda y muestra en qué punto comprar deja de cubrir el faltante y otra opción pasa a ser la mejor. |
 | **Impacto** | Compara tres políticas de inventario en el mismo periodo, con costos editables, y reporta la calidad del pronóstico. |
+
+**Detalle de decisión:** inventario con y sin la acción, y las alternativas comparadas.
+
+![Detalle de decisión](docs/capturas/detalle.png)
+
+**Simulador:** el caso guía con el costo de cada opción según el plazo del proveedor.
+
+![Simulador](docs/capturas/simulador.png)
+
+**Impacto:** las tres políticas en el mismo periodo de prueba.
+
+![Impacto](docs/capturas/impacto.png)
 
 ## Cómo ejecutarlo
 
