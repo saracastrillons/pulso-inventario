@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# La demo se regenera con `python -m pulso.demo preparar` (semilla fija)
+data/
+*.log
