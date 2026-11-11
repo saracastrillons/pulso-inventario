@@ -47,5 +47,14 @@ with st.sidebar:
                        f"{r.get('rechazadas', 0)} filas rechazadas.")
         else:
             st.error(r["detalle"])
+    with st.expander("Reiniciar la demo"):
+        st.caption("Vuelve al corte inicial y borra las aprobaciones. Tarda cerca de un minuto.")
+        if st.button("Reiniciar", width="stretch"):
+            comun.conexion().close()
+            comun.conexion.clear()
+            st.session_state.clear()
+            with st.spinner("Regenerando datos, modelos y primer lote..."):
+                preparar(DATOS, decir=lambda *_: None)
+            st.rerun()
 
 navegacion.run()
